@@ -3,12 +3,12 @@ import webpackLogoImage from '@images/logo/webpack-logo.png';
 import '@scss/main.scss';
 
 // import dataXml from '@data/data.xml';
-// import dataCsv from '@data/data.csv';
+import dataCsv from '@data/data.csv';
 
 console.log('Hello world!');
 console.log('Hello everybody!');
 // console.log(dataXml);
-// console.log(dataCsv);
+console.log(dataCsv);
 
 // Create logo
 const logo = document.createElement('img');
