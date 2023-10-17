@@ -1,15 +1,16 @@
 @import '~normalize.css';
+@import './utils/main-utils';
 
-@font-face {
-  font-family: 'Roboto-Regular';
-  src: url('@fonts/roboto-regular.ttf');
-}
+// @font-face {
+//   font-family: 'Roboto-Regular';
+//   src: url('@fonts/roboto-regular.ttf');
+// }
 
-$font-family-js: 'Roboto-Regular', sans-serif;
+// $font-family-js: 'Roboto-Regular', sans-serif;
 
 body {
   padding-top: 20px;
-  font-family: $font-family-js;
+  font-family: $mainFont;
   background-color: #fff;
 }
 

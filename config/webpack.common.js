@@ -62,7 +62,7 @@ module.exports = {
       // Images: Copy image files to build folder
       { test: /\.(?:ico|gif|png|jpg|jpeg)$/i, type: 'asset/resource' },
       // Fonts and SVGs: Inline files
-      { test: /\.(woff(2)?|eot|ttf|otf|svg|)$/, type: 'asset/inline' },
+      { test: /\.(woff(2)?|eot|ttf|otf|svg|)$/i, type: 'asset/resource' },
       // XML data
       { test: /\.xml$/, use: ['xml-loader'] },
       // CSV data
